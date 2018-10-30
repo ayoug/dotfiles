@@ -25,7 +25,21 @@ Plug 'tpope/vim-commentary'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'airblade/vim-gitgutter'
+
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
+"Plug 'davidhalter/jedi-vim'
+
+Plug 'cocopon/iceberg.vim'
+"Plug 'w0ng/vim-hybrid'
+
 call plug#end()
+
+let g:vim_markdown_folding_disabled = 1
+
+colorscheme iceberg
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
