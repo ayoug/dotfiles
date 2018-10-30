@@ -14,8 +14,6 @@ set path+=**
 set cursorcolumn
 set cursorline
 
-colorscheme apprentice
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-fugitive'
